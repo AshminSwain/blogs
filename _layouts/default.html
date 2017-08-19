@@ -19,7 +19,7 @@ layout: compress
     <meta property="og:type" content="article">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.baseurl }}/thumbs/{{ page.image }}" />
     <meta property="og:site_name" content="Ashmin's Blog">
     <meta property="article:publisher" content="http://www.facebook.com/ashmin.ajitav" />
     <meta property="article:author" content="https://www.facebook.com/ashmin.ajitav" />
@@ -41,7 +41,7 @@ layout: compress
         "@type": "TechArticle",
         "name": "Ashmin | {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
         "headline": "{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {%if page.image %}"image": "{{site.url}}/thumbs/{{ page.image }}",{% else %}"image": "{{site.url}}/img/{{ site.logo }}",{% endif %}
+        {%if page.image %}"image": "{{site.baseurl}}/thumbs/{{ page.image }}",{% else %}"image": "{{site.url}}/img/{{ site.logo }}",{% endif %}
         "description": "{% if page.desc %}{{ page.desc}}{% else %}{{ site.description}}{% endif %}",
         "logo": "http://blog.webjeda.com/img/webjeda-logo.svg",
         "url": "{{ site.url }}{{ page.url }}"
