@@ -110,7 +110,7 @@ footer {
 
 
 .logo {
-    background-image: url({{ site.baseurl }} + "/img/home.png");
+    background-image: url("/img/home.png");
     position: absolute;
     top: 2%;
     left: 5%;
