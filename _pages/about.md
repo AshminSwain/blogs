@@ -9,7 +9,7 @@ adallow: 0
 This blog site is an effort by me to give back to the data science community what I am learning from various sources. The site's code was forked by me from sharu725's github's page and I am just using the code base as a medium to publish my blogs and am really grateful for sharu to have shared the code on the public repository. 
 {: .intro }
 <br />
-<img alt="ashmin" id="author-pic" class="left small" src="/img/ashmin.jpg">
+<img alt="ashmin" id="author-pic" class="left small" src="{{ site.baseurl }}/img/ashmin.jpg">
 <style>
 .ab {
     text-align: center;
