@@ -45,7 +45,7 @@ footer {
     padding: 2em 1em 2em 1em;
     margin-top: 2em;
     background-color: lighten($grey-color, 40%);
-    background-image: url(/images/pattern.png);
+    background-image: url({{ site.baseurl }}/images/pattern.png);
     color: lighten($color, 40%);
     font-size: $small-fs;
     .logo-wj {
