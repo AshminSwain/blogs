@@ -31,7 +31,7 @@ layout: default
     </p>
 
     <div class="desc">
-          <img class="post-image" width="100%" src="/thumbs/{{page.image}}" alt="{{page.title}}">
+          <img class="post-image" width="100%" src="{{ site.baseurl }}/thumbs/{{page.image}}" alt="{{page.title}}">
           <p class="intro">{{page.desc | strip_html}}</p>
       </div>
 
@@ -41,7 +41,7 @@ layout: default
        </main>
        
  <!-- Author -->    
-{% if page.author == 'sharathdt' %}
+{% if page.author == 'ashmin' %}
 <p>This article is written by <strong>ashmin</strong> Follow him <a rel="nofollow" href="https://twitter.com/ashminswain">@ashminswain</a>.</p>
 {% endif %}
       
