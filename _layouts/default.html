@@ -41,7 +41,7 @@ layout: compress
         "@type": "TechArticle",
         "name": "Ashmin | {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
         "headline": "{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {%if page.image %}"image": "{{site.baseurl}}/thumbs/{{ page.image }}",{% else %}"image": "{{site.url}}/img/{{ site.logo }}",{% endif %}
+        {%if page.image %}"image": "{{ site.baseurl }}/thumbs/{{ page.image }}",{% else %}"image": "{{ site.baseurl }}/img/{{ site.logo }}",{% endif %}
         "description": "{% if page.desc %}{{ page.desc}}{% else %}{{ site.description}}{% endif %}",
         "logo": "http://blog.webjeda.com/img/webjeda-logo.svg",
         "url": "{{ site.url }}{{ page.url }}"
