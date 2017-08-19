@@ -44,7 +44,7 @@ footer {
     padding: 2em 1em 2em 1em;
     margin-top: 2em;
     background-color: lighten($grey-color, 40%);
-    background-image: url($baseurl + "/blogs/images/pattern.png");
+    background-image: url(/blogs/images/pattern.png);
     color: lighten($color, 40%);
     font-size: $small-fs;
     .logo-wj {
@@ -108,7 +108,7 @@ footer {
 
 
 .logo {
-    background-image: url("/img/home.png");
+    background-image: url(/blogs/img/home.png);
     position: absolute;
     top: 2%;
     left: 5%;
