@@ -25,7 +25,7 @@
 				{% endif %}
 
 				<image>
-                    <url>{{ site.url }}/thumbs/{{ post.image }}</url>
+                    <url>{{ site.baseurl }}/thumbs/{{ post.image }}</url>
                     <title>{{ post.title }}</title>
                 </image>
 				
