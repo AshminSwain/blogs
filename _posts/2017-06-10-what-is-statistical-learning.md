@@ -85,7 +85,7 @@ The methods being used are either restrictive (less flexible) or more flexible i
 The restrictive methods are generally used for inference problems as they are more interpretable. e.g Understanding the results of a linear relationship would be easy as the relationship between Y and X<sub>1</sub>, X<sub>2</sub>, … X<sub>p</sub> can be interpreted. 
 Problems where prediction is the sole purpose is where the more flexible methods can be used. But the more flexible methods often tend to overfit hence its quite common to get accurate predictions with less flexible methods.
 
-![Fourth Equation](/images/sl_6.PNG){: .noborder}
+![Fourth Equation]({{ site.baseurl }}/images/sl_6.PNG){: .noborder}
 
 The above figure shows a tradeoff between flexibility and interpretability for some of the general ML methods.
 
