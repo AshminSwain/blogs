@@ -1,12 +1,12 @@
 ---
-title: Accessing Model Accuracy
+title: Assessing Model Accuracy
 desc: “There is no free lunch in statistics!” For a particular dataset, one specific method may work best, but some other method may work better on a similar but different data set. So, it is very important to decide which method gives the best results for the data. Selecting the best approach is one of the most challenging tasks in machine learning. Measuring data accuracy hence is vital for any data scientist.
 author: ashmin
 tags: Fit Bias Variance Trade-Off KNN Bayes
 image: model_accuracy.png
 layout: post
 mathjax: true
-permalink: /accessing-model-accuracy/
+permalink: /assessing-model-accuracy/
 ---
 
 * Do not remove this line (it will not be displayed) 
