@@ -22,7 +22,7 @@ If a test dataset is unavailable then the test error rate can be found out by se
 
 This method is used to estimate the test error associated with fitting a particular statistical learning method on a set of observations. It involves randomly dividing the available observations into two sets – a training set and a validation set. The training set is used to fit the model on while the fitted model is used to predict the responses for the observations in the validation set. The validation set error rate gives an estimate of the test error rate. 
 
-![validation set]({{ site.baseurl }}/images/cv_1.PNG){: .noborder}
+![validation set]({{ site.baseurl }}/images/cv_1.png){: .noborder}
 
 The division should be made so that both the subsets are of comparable sizes but it can happen in any random manner. But if the observations are divided again and again and the same learning method is used to produce the test error, then there would be some variation in the error rates produced each time. 
 
@@ -42,7 +42,7 @@ So this method can be repeated n times for the other observations one by one to 
 
 $CV_n = \frac{1}{n}\sum_{i=1}^n{MSE_i}$
 
-![loocv]({{ site.baseurl }}/images/cv_2.PNG){: .noborder}
+![loocv]({{ site.baseurl }}/images/cv_2.png){: .noborder}
 
 LOOCV has some major advantages over validation set approach.
 
@@ -58,7 +58,7 @@ This approach of cross validation involves randomly dividing the set of observat
 
 $CV_k = \frac{1}{k}\sum_{i=1}^k{MSE_i}$
 
-![k fold]({{ site.baseurl }}/images/cv_3.PNG){: .noborder}
+![k fold]({{ site.baseurl }}/images/cv_3.png){: .noborder}
 
 LOOCV is a special case of k-fold CV where k is equal to n. In practice, k is kept 5 or 10. Advantage of keeping the k-value small is the less amount of computation it would require. LOOCV requires fitting the statistical method n times which is computationally expensive if n is very large. 
 
