@@ -40,7 +40,7 @@ $log(\frac{p(x)}{1-p(x)}) = β_0+β_1X$
 
 The LHS of the above equation is called as logit or log-odds. 
 
-In a logistic regression model, increasing X by one unit changes the log odds by $β_1$ or multiplies the odds by $e^β_1$. But as the relationship between p(X) and X is not a straight line, $β_1$ doesn’t correspond to the change in p(X) associated with a one-unit increase in X. The amount that p(X) changes due to a one-unit change in X will depend on the current value of X. Still if $β_1$ is positive, then increasing X would lead to increase in p(X) and vice versa, irrespective the value of X.
+In a logistic regression model, increasing X by one unit changes the log odds by $β_1$ or multiplies the odds by $e^{β_1}$. But as the relationship between p(X) and X is not a straight line, $β_1$ doesn’t correspond to the change in p(X) associated with a one-unit increase in X. The amount that p(X) changes due to a one-unit change in X will depend on the current value of X. Still if $β_1$ is positive, then increasing X would lead to increase in p(X) and vice versa, irrespective the value of X.
 
 ## Estimating the regression coefficients
 
