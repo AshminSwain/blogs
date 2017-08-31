@@ -22,7 +22,7 @@ LDA is more popular for observations having more than two response classes.
 
 ## Using Bayes Theorem for Classification
 
-If an observation with K classes (K >= 2) needs to be classified, then the response variable can take on K possible distinct and unordered values. Let "π" _kbe the overall probability that a randomly chosen observation came from kth class i.e. the probability that a given observation is associated with the kth category of the response variable Y. 
+If an observation with K classes (K >= 2) needs to be classified, then the response variable can take on K possible distinct and unordered values. Let $π_k$ be the overall probability that a randomly chosen observation came from kth class i.e. the probability that a given observation is associated with the kth category of the response variable Y. 
 
 Let $f_k(X) \equiv Pr(X=x\|Y=k)$ denotes the density function of X for an observation that comes from the kth class. $f_k(x)$ is relatively large if there is a large probability that an observation in the kth class has $X \approx x$ and $f_k(x)$ is small if it is very unlikely that an observation in the kth class has $X \approx x$.
 
