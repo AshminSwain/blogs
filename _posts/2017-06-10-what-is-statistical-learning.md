@@ -31,7 +31,7 @@ Here *f* is some fixed but unknown function of X<sub>1</sub>,…, X<sub>p</sub> 
 
 ## Why should one estimate f?
 
-### a.   Prediction
+### Prediction
 
 In many situations, a set of inputs X are readily available, but the output Y cannot be easily obtained. In this condition as the error term averages to zero, we can predict Y by using $\hat{Y}$ = $\hat{f}(X)$ where $\hat{f}$ represents our estimate for *f* and $\hat{Y}$ represents the resulting prediction for Y. In this setting, $\hat{f}$ is often treated as a *black box*, in the sense that one is not typically concerned with the exact form of $\hat{f}$, if it yields accuracte predictions for Y.
 
@@ -46,7 +46,7 @@ $E(Y-\hat{Y})^2 = [f(X)-\hat{f}(X)]^2 + Var(ϵ)$
 
 Here, $E(Y-\hat{Y})^2$ represents the expected value or average of the squared difference between the predicted and the actual value of Y. Var(ϵ) represents the variance associated with the error term ϵ. The first term on RHS of equation is the reducible error while the second term is the Irreducible error.
 
-### b.   Inference
+### Inference
 
 In order to understand how Y changes as a function of X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>,… X<sub>p</sub> , a few of the following things might help.
 
