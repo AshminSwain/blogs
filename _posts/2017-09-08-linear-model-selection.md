@@ -2,7 +2,7 @@
 title: Linear Model Selection
 desc: In a regression setting, the standard linear model the form Y = β<sub>0</sub> + β<sub>1</sub> X<sub>1</sub> + β<sub>2</sub>X<sub>2</sub> + … + β<sub>p</sub>X<sub>p</sub> + ε is commonly used to describe the relationship between a response Y and a set of variable $X_1$, $X_2$ ,.., $X_p$. This linear model framework can be extended to accommodate non-linear relationships. But linear model has distinct advantages in terms of inference and on real-world problems and gives a tough competition to non-linear models. Linear models can be improved by replacing plain least squares fitting with some alternative fitting procedures which can give better prediction accuracy and model interpretability. 
 author: ashmin
-tags: cross validation k fold bootstrap
+tags: subset selection forward backward stepwise AIC BIC cp adjusted r2
 image: model_selection.png
 layout: post
 mathjax: true
