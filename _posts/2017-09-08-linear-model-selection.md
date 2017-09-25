@@ -137,7 +137,7 @@ Like $C_p$, the BIC tend to take on small values for a model with a low test err
 
 Adjusted $R^2$ statistic is another approach for selecting models with many variables. For a least square model with d variables, the adjusted $R^2$ is calculated as 
 
-$Adjusted R^2 = 1 - \frac{RSS/(n-d-1)}{TSS/(n-1)}$
+$Adjusted  R^2 = 1 - \frac{RSS/(n-d-1)}{TSS/(n-1)}$
 
 Unlike $C_p$, AIC and BIC, a large value of $R^2$ indicates a model with a small test error. Maximizing adjusted $R^2$ means minimizing RSS/(n-d-1). While RSS always decreases as the number of variables in the model increases, RSS/(n-d-1) may increase or decrease due to the presence of d in the denominator.
 
