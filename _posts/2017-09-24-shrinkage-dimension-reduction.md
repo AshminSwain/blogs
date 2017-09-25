@@ -28,7 +28,7 @@ where λ ≥ 0 is a tuning parameter to be determined separately. As with least 
 
 The answer lies in bias variance tradeoff. As λ increases, the flexibility of the ridge regression fit decrease, leading to decreased variance but increased bias. In situations where the relationship between the response and the predictors is close to linear, the least squares estimates will have low bias but may have high variance due to which a small change in training data would cause a large change in the least squares coefficient estimates. When number of variables is almost as large as the number of observations, the least square estimates would be highly variable. If the number of variables is larger than the number of observations, then the least squares do not have a unique solution while ridge regression can perform well by trading off a small increase in bias for a large decrease in variance. So ridge regression works best in situations where the least squares estimates high variance.
 
-## The Lasso
+## The Lasso (Least Absolute Shrinkage and Selection Operator)
 
 The ridge regression shrinks all the coefficients towards zero but doesn’t make anyone of them as zero (unless λ = ∞). This creates problems in interpreting the model when the number of variables is high. The ridge regression always has includes all the predictors in the model. The lasso is a technique that overcomes this disadvantage of ridge regression. The lasso coefficients minimize the below quantity:
 
